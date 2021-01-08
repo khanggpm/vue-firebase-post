@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+:root {
+  --font: Roboto, sans-serif;
+  --textColor: #374961;
+  --linkActiveColor: #41b783;
+}
+
+
+html,body,div {
+  margin: 0;
+  padding: 0;
+}
+
+.el-container {
+  overflow-y: hidden;
+  position: relative;
+  height: 100vh;
+}
+.el-header {
+  background-color: #B3C0D1;
+  color: #333;
+  text-align: center;
+  line-height: 60px;
+}
+
+.el-main {
+  //background-color: #e8e2dc;
+  color: #333;
+  text-align: center;
+  height: calc(100vh - 60px);
+}
+
+.el-aside {
+  //border-right: 1px solid #B3C0D1;
+  //width: 200px;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 16px;
+}
+
+/* Let's get this party started */
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  background: #B3C0D1;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: #B3C0D1;
+}
